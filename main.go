@@ -13,7 +13,13 @@ type Car struct {
 }
 
 func main() {
+	//##LinQ
+	linQ()
 
+	//##Validate
+}
+
+func linQ() {
 	cars := []Car{}
 	cars = append(cars,
 		Car{
@@ -43,8 +49,5 @@ func main() {
 	}).ToSlice(&result)
 
 	fmt.Printf("%+v", result)
-	fmt.Println("======================\\n")
-	fmt.Println("======================")
-
-	//##Validate
+	fmt.Println()
 }
