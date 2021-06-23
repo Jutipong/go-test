@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	. "github.com/ahmetb/go-linq/v3"
 )
@@ -13,10 +14,25 @@ type Car struct {
 }
 
 func main() {
+
+	//## Contrain string in array
+	str := []string{"api/login", "api/logOut"}
+	has := Contains(str, "Out")
+	fmt.Println("Has is: ", has)
+
 	//##LinQ
-	linQ()
+	// linQ()
 
 	//##Validate
+}
+
+func Contains(s []string, e string) bool {
+	for _, a := range s {
+		if strings.Contains(a, e) {
+			return true
+		}
+	}
+	return false
 }
 
 func linQ() {
