@@ -7,9 +7,9 @@ import (
 )
 
 type Car struct {
-	id           int
-	year         int
-	owner, model string
+	id    int
+	year  int
+	owner string
 }
 
 func main() {
