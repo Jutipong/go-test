@@ -7,6 +7,7 @@ require (
 	github.com/c9s/gomon v1.3.0 // indirect
 	github.com/daviddengcn/go-colortext v1.0.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
+	github.com/gookit/validate v1.2.11
 	github.com/konsorten/go-windows-terminal-sequences v1.0.3 // indirect
 	github.com/mattn/go-colorable v0.1.8 // indirect
 	github.com/mattn/go-isatty v0.0.13 // indirect
